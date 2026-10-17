@@ -1,4 +1,8 @@
 <?php
+/* Auteur : WAFA AIT BAHA 
+    Grp:02
+    TP:03 PHP : mini-application
+*/
 require "config.php";
 ?>
 
@@ -9,7 +13,8 @@ require "config.php";
     <title>TP PHP - Exercice 1</title>
 </head>
 <body>
-
+<h1>TP 3 PHP : mini-application « Suivi des notes des apprenants »</h2>
+<h2>Partie 1 : Variables, constantes, types et chaînes</h2>
 <h2>Exercice 1.1 : Noms de variables</h2>
 
 <?php
@@ -150,6 +155,8 @@ echo 'Les variables ne seront pas $traitees $ici' . "<br>";
 // 5 : Variables interprétées
 echo "Les variables seront $traitees $ici" . "<br>";
 
+
 ?>
+
 </body>
 </html>
