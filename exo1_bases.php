@@ -38,7 +38,16 @@ echo SEUIL . "<br>";
 
 var_dump(defined("SEUIL"));
 var_dump(defined("INCONNUE"));
+// SEUIL is already defined so the output will show as  bool(True)
+//par contre INCONNUE is not defined
+
+/*afficer une constante non définie cause une erreur */
+/*Diff entre  const et define 
+- const permet de declarer  une constante directement 
+-define permet de defenir une constante a l'aide d'une fonction
+*/
 ?>
+
 
 <h2>Exercice 1.3 : Calcul</h2>
 
@@ -49,10 +58,12 @@ $prix_ttc = $prix_ht + ($prix_ht * $tva / 100);
 
 echo "Le prix TTC du produit est de " . $prix_ttc . " €.";
 ?>
+
 <h2>Exercice 1.4 : Types et conversions</h2>
 <?php
 
 // 1.Conversion en chaîne
+
 $test = 42;
 $test = (string)$test;
 
